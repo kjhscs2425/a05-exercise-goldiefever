@@ -4,12 +4,16 @@
 any lower temperature, it should return `False`.
 """
 def check_fever(temperature):
-  #YOUR CODE HERE
-  return
+  if temperature>=100.4:
+    return True
+  else:
+    return False
 
 # Get temperature from user and convert to float
-temp = ...
+
+temp = float(input("Enter your temperature in degrees farenheit: \n"))
+
 if check_fever(temp):
-  print("You have a fever.")
+  print("Oh No! You have a fever...")
 else:
-  print("You don't have a fever.")
+  print("Yay! You do not have a fever.")
