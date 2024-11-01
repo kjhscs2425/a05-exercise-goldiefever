@@ -14,6 +14,6 @@ def check_fever(temperature):
 temp = float(input("Enter your temperature in degrees farenheit: \n"))
 
 if check_fever(temp):
-  print("Oh No! You have a fever...")
+  print("Oh No! You have a fever")
 else:
-  print("Yay! You do not have a fever.")
+  print("Yay! You do not have a fever")
